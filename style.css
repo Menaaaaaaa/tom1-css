@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: bisque;
+    margin: 0;
+
+}
+nav{
+    background-color: rgba(158, 129, 185, 0.5);
+    padding: 3px;
+
+}
+nav a{
+    text-decoration: none;
+    border: 1px;
+    padding: 3px;
+    margin: auto;
+    color: azure;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: aqua;
+}
+header, footer{
+    background-color: rgb(167, 153, 134, 0.3);
+    display: flex;
+}
+body{
+    background-color: wheat;
+    margin: 0 40px;
+    background-image: url(images/background-6360860_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    /* background-color: azure; */
+    height: auto;
+}
+img{
+
+    width: 100%;
+}
+.row{
+    display: flex;
+    /* height: 159px; no hay necesidad de ponerle "auto" como anteriormente en el main dado que lo asume automaticamente */
+}
+.izquierda{
+    background-color: burlywood;
+    width: 40%;
+}
+.derecha{
+    background-color: crimson;
+    width: 60%;
+
+}
+.logo{
+    width: 80px;
+   margin-right: 20px;
+   margin-top: 10px;
+   /* padding 15px */
+}
+.logo img{
+    width: 80px;
+}
+.galeria{
+    background-color: darkgrey;
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.galeria img{
+width: 120px;
+height: 120px;
+border-radius: 30px;
+border: 2px dashed;
+}
+#especial{ /* solo se utiliza el id una vez si se usan mas sera con la etiqueta class */
+    border-radius: 50%;
+}
